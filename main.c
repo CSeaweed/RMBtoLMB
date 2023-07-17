@@ -42,8 +42,8 @@ int main()
   while (1)
   {
 
-    BOOL escPressed;
-    BOOL spacePressed;
+    BOOL escPressed = FALSE;
+    BOOL spacePressed = FALSE;
 
     while (PeekMessage(&msg, NULL, 0, 0, PM_REMOVE))
     {
